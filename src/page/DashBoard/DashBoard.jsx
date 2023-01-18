@@ -17,7 +17,7 @@ const DashBoard = () => {
                     <div className={`toggle ${act}`} onClick={() => onclick()}></div>
                 </header>
                 <div className="overlay"></div>
-                <div className="text">
+                <div className={`text ${act}`}>
                     <h2>Never Stop To </h2>
                     <h3>Exploring The World</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

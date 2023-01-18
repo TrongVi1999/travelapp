@@ -85,6 +85,12 @@ header .logo {
 .text {
     position: relative;
     z-index: 10;
+    left: 0;
+    transition: 1.5s;
+}
+
+.text.active {
+    left: 350px;
 }
 
 .text h2 {
