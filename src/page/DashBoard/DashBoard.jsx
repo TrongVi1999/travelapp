@@ -10,12 +10,12 @@ const DashBoard = () => {
     }
     return (
         <div>
-
             <section className={`showcase ${act}`}>
                 <header>
                     <h2 className="logo">Travel</h2>
                     <div className={`toggle ${act}`} onClick={() => onclick()}></div>
                 </header>
+                <video src='https://cdn.pixabay.com/vimeo/689949818/Ho%C3%A0ng%20H%C3%B4n%20-%20111204.mp4?width=960&hash=79d7246bc647e1428b850dada47a4cebb61d0a63' autoPlay loop muted></video>
                 <div className="overlay"></div>
                 <div className={`text ${act}`}>
                     <h2>Never Stop To </h2>
