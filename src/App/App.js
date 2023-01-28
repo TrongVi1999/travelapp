@@ -3,7 +3,7 @@ import Destination from '../page/Destination/Destination';
 import Search from '../page/Search/Search';
 import CollectionHover from '../page/CollectionHover/CollectionHover';
 import DashBoard from '../page/DashBoard/DashBoard';
-import Collection from '../page/Collection/Collection';
+import ErrorScreen from '../page/ErrorScreen/ErrorScreen';
 import FilterCard from '../page/FilterCard/FilterCard';
 function App() {
   return (
@@ -32,9 +32,9 @@ function App() {
           >
           </Route>
           <Route
-            path='/Collection'
+            path='/ErrorScreen'
             element={
-              <Collection />
+              <ErrorScreen />
             }
           >
           </Route>
